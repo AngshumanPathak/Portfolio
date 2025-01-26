@@ -17,11 +17,11 @@ const LeftComponent = () => {
       </div>
       <div>
       <div className="flex flex-col flex-grow relative  justify-center  p-4 z-10 bg-opacity-50 bg-yellow-300 ">
-            <Button className={`mb-2 mt-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/')}><img src={profile} alt="profile img" />Profile</Button>
-            <Button className={`mb-2   bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/experience" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/experience')}><img src={breifcase} alt="breifcase image" className="h-8 w-8" />Experience</Button>
-            <Button className={`mb-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/projects" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/projects')}><img src={projects} alt="projects image" className="h-8 w-8" />Projects</Button>
-            <Button className={`mb-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/education" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/education')}><img src={education} alt="education image"  className="h-8 w-8" />Education</Button>
-            <Button className={`mb-2  bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/contacts" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/contacts')}><img src={contact} alt="contact image"  className="h-8 w-8"/>Contacts</Button>        
+            <Button className={`mb-2 mt-4 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/')}><img src={profile} alt="profile img" />Profile</Button>
+            <Button className={`mb-2 mt-2  bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/experience" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/experience')}><img src={breifcase} alt="breifcase image" className="h-8 w-8" />Experience</Button>
+            <Button className={`mb-2 mt-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/projects" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/projects')}><img src={projects} alt="projects image" className="h-8 w-8" />Projects</Button>
+            <Button className={`mb-2 mt-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/education" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/education')}><img src={education} alt="education image"  className="h-8 w-8" />Education</Button>
+            <Button className={`mb-2 mt-2 bg-transparent rounded-full transform transition-transform duration-200 ${location.pathname === "/contacts" ? "bg-yellow-500 scale-105" : "hover:scale-95"}`} onClick={()=>navigate('/contacts')}><img src={contact} alt="contact image"  className="h-8 w-8"/>Contacts</Button>        
         </div>
       </div>
     </div>
