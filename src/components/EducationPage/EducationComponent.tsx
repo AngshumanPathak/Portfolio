@@ -8,7 +8,7 @@ const EducationComponent = () => {
   navigate('/education'); // Consider wrapping this in a `useEffect` to prevent infinite navigation loops.
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-full">
       {/* Left section */}
       <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto no-scroll">
         <LeftComponent />

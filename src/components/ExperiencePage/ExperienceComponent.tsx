@@ -9,7 +9,7 @@ const ExperienceComponent = () => {
   navigate('/experience')
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-full">
       {/* Left section */}
       <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto no-scroll">
         <LeftComponent />
