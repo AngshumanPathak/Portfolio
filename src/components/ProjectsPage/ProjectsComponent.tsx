@@ -12,9 +12,9 @@ const ProjectsComponent = () => {
   
 
   return (
-    <div className="flex h-full">
+    <div className="flex h-screen">
     {/* Left section */}
-    <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto no-scroll ">
+    <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto scrollable-container ">
       <LeftComponent />
     </div>
     {/* Right section */}

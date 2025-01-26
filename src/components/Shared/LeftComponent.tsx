@@ -11,7 +11,7 @@ const LeftComponent = () => {
     const location = useLocation()
     const navigate = useNavigate()
   return (
-    <div>
+    <div className="h-full">
       <div>
         <img src="https://i.postimg.cc/Pfm17k9r/Whats-App-Image-2025-01-24-at-18-47-19-2dbebc4a-fotor-bg-remover-20250124184931.png" alt="Image" className='h-1/5' />
       </div>
