@@ -1,0 +1,15 @@
+.no-scroll {
+    overflow: hidden; /* Completely disables scrolling */
+  }
+
+/* Hide scrollbar for modern browsers */
+.scrollable-container {
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  /* Hide scrollbar for Chrome, Edge, Safari */
+  .scrollable-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
