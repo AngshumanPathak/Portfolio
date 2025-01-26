@@ -10,7 +10,7 @@ const EducationComponent = () => {
   return (
     <div className="flex h-screen">
       {/* Left section */}
-      <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto scrollable-container">
+      <div className="w-1/5 bg-amber-400 flex flex-col overflow-y-auto scrollable-container">
         <LeftComponent />
       </div>
       {/* Right section */}
