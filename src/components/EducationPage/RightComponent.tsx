@@ -10,7 +10,7 @@ const RightComponent = () => {
 
     
   return (
-    <div className='bg-gray-300 flex-col w-full h-full overflow-y-auto'>
+    <div className='bg-gray-300 flex-col w-full h-full overflow-y-auto '>
         <NavBarRight/>
         <div className='flex flex-col justify-center items-center'>
         <div className='mt-8 border-2 border-black rounded-lg'>
@@ -18,7 +18,7 @@ const RightComponent = () => {
         </div>
         </div>
 
-      <div className=" max-h-screen p-2">
+      <div className="p-2">
         <div className='m-8 bg-yellow-400 p-6 rounded-2xl shadow-lg'>
          <h1 className='text-2xl font-bodoni font-bold'>Bachelor's of Engineering (July 2017 - July 2021)</h1>
          <h2 className='text-xl font-bodoni font-semibold mb-2'>Major - Electronics and Communications Engineering</h2>

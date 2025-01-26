@@ -9,12 +9,13 @@ const ExperienceComponent = () => {
   navigate('/experience')
 
   return (
-    <div className="h-screen flex">
-      <div className="w-1/5 bg-gray-500 flex ">
+    <div className="flex h-screen">
+      {/* Left section */}
+      <div className="w-1/5 bg-gray-500 flex flex-col overflow-y-auto no-scroll">
         <LeftComponent />
       </div>
       {/* Right section */}
-      <div className="flex-1 bg-gray-200 flex justify-center">
+      <div className="flex-1 bg-gray-200 flex flex-col overflow-y-auto">
         <RightComponent />
       </div>
     </div>
