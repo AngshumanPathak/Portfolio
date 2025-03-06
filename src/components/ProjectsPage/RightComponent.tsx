@@ -50,9 +50,12 @@ const RightComponent = () => {
         "https://i.postimg.cc/YSBZZp4R/Dandelions-Of-Mind-Google-Chrome-12-20-2024-12-09-10-PM.png",
       ];
     
-      const mailerBotImages = [
-        "https://i.postimg.cc/3rVgh9hS/Vite-React-TS-and-1-more-page-Personal-Microsoft-Edge-1-25-2025-4-07-40-PM.png",
-        "https://i.postimg.cc/BQF2nDQq/Vite-React-TS-and-1-more-page-Personal-Microsoft-Edge-1-25-2025-4-08-40-PM.png",
+      const carRentalImages = [
+        "https://i.postimg.cc/Gt1RVHS4/IMG-20250306-WA0017.jpg",
+        "https://i.postimg.cc/28GY9jd5/IMG-20250306-WA0018.jpg",
+        "https://i.postimg.cc/NF7tcBWp/IMG-20250306-WA0019.jpg",
+        "https://i.postimg.cc/v8Wb9tcf/IMG-20250306-WA0020.jpg",
+        "https://i.postimg.cc/ncpZ19D5/IMG-20250306-WA0021.jpg",
       ];
     
   
@@ -94,16 +97,16 @@ const RightComponent = () => {
 
 
         <div className='m-8 bg-yellow-400 p-6 rounded-2xl shadow-lg h-100 w-4/5'>
-         <h1 className='text-xl font-bodoni font-bold'>Mailer Bot</h1>
-         <h2 className='text-md font-bodoni font-semibold mb-2'>Locally Hosted</h2>
+         <h1 className='text-xl font-bodoni font-bold'>NH 37 Car Rentals</h1>
+         <h2 className='text-md font-bodoni font-semibold mb-2'>Website Link: <a href="https://www.nh37carrent.in/"></a></h2>
          <p className="mb-2">
-            Description: This is a mailing bot designed to send automated emails to users without any manual intervation without getting spam alerts.
+            Description: A self driving car rental booking site with filter based searches and more.
             
          </p>
 
          <div className="flex justify-center items-center w-100">
          <Carousel>
-            <AutoPlayCarousel images={mailerBotImages} />
+            <AutoPlayCarousel images={carRentalImages} />
 
           </Carousel> 
 
