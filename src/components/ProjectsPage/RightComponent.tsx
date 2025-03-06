@@ -98,7 +98,7 @@ const RightComponent = () => {
 
         <div className='m-8 bg-yellow-400 p-6 rounded-2xl shadow-lg h-100 w-4/5'>
          <h1 className='text-xl font-bodoni font-bold'>NH 37 Car Rentals</h1>
-         <h2 className='text-md font-bodoni font-semibold mb-2'>Website Link: <a href="https://www.nh37carrent.in/"></a></h2>
+         <h2 className='text-md font-bodoni font-semibold mb-2'>Website Link: <a href="https://www.nh37carrent.in/">Click here</a></h2>
          <p className="mb-2">
             Description: A self driving car rental booking site with filter based searches and more.
             
